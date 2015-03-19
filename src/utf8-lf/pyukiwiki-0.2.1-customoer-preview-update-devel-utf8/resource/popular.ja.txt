@@ -1,0 +1,9 @@
+# PyukiWiki Resource file (Japanese EUC-JP)
+# "PyukiWiki" ver 0.2.1-customoer-preview $$
+# $Id$
+
+popular_plugin_total_frame=<h5>人気の%d件</h5><div>%s</div>
+popular_plugin_today_frame=<h5>今日の%d件</h5><div>%s</div>
+popular_plugin_yesterday_frame=<h5>昨日の%d件</h5><div>%s</div>
+popular_plugin_week_frame=<h5>今週の%d件</h5><div>%s</div>
+popular_plugin_lastweek_frame=<h5>先週の%d件</h5><div>%s</div>

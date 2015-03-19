@@ -1,0 +1,41 @@
+/* "PyukiWiki" ver 0.2.1-customoer-preview $$ */
+/* $Id$ */
+/* Code=UTF-8 */
+#icn_facebook32 {
+	background: url(../image/login32.png) 0px 0px;
+	height: 32px;
+	width: 32px;
+}
+#icn_google32 {
+	background: url(../image/login32.png) 0px -32px;
+	height: 32px;
+	width: 32px;
+}
+#icn_hatena32 {
+	background: url(../image/login32.png) 0px -64px;
+	height: 25px;
+	width: 32px;
+	padding-top: 2px;
+}
+#icn_mixi32 {
+	background: url(../image/login32.png) 0px -91px;
+	height: 31px;
+	width: 32px;
+}
+#icn_openid32 {
+	background: url(../image/login32.png) 0px -122px;
+	height: 31px;
+	width: 32px;
+}
+#icn_twitter32 {
+	background: url(../image/login32.png) 0px -153px;
+	height: 29px;
+	width: 32px;
+	padding-top: 1px;
+}
+#icn_yahooj32 {
+	background: url(../image/login32.png) 0px -183px;
+	height: 7px;
+	width: 32px;
+	padding-top: 8px;
+}

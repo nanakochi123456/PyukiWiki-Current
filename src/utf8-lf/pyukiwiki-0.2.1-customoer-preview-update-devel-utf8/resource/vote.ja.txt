@@ -1,0 +1,10 @@
+# PyukiWiki Resource file (Japanese EUC-JP)
+# "PyukiWiki" ver 0.2.1-customoer-preview $$
+# $Id$
+
+vote_plugin_choice=選択枝
+vote_plugin_votes=投票
+vote_plugin_addinput=その他
+vote_plugin_votecount=得票数
+vote_plugin_voteper=得票率
+vote_plugin_totalvote=得票総数

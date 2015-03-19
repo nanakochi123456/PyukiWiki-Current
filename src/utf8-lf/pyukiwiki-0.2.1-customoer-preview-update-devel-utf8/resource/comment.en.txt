@@ -1,0 +1,7 @@
+# PyukiWiki Resource file (English)
+# "PyukiWiki" ver 0.2.1-customoer-preview $$
+# $Id$
+
+comment_plugin_yourname=Name:
+comment_plugin_commentbutton=Post Comment
+comment_plugin_err=Items mentioned are insufficient.
