@@ -1,0 +1,8 @@
+# PyukiWiki Resource file (English)
+# "PyukiWiki" ver 0.2.1-customoer-preview $$
+# $Id$
+article_plugin_name=Name:
+article_plugin_subject=Subject:
+article_plugin_btn=Submit
+article_plugin_err=Items mentioned are insufficient.
+article_plugin_dmymsg=If you see an input form on this immediately, please do not enter into the absolute.

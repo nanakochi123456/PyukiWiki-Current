@@ -1,0 +1,70 @@
+#$Id$
+
+__END__
+=encoding euc-jp
+
+=head1 NAME
+
+hr.pl - PyukiWiki / YukiWiki プラグイン
+
+=head1 概要
+
+ #hr
+
+=head1 重要度
+
+★★☆☆☆
+
+=head1 説明
+
+行頭で #hr を記述すると、区切り線になります。区切り線は上位のブロック要素の幅の60%の長さの水平線がセンタリングされて引かれます。
+
+このプラグインはYukiWikiと互換性があります。
+
+=head1 参考
+
+=over 4
+
+=item PyukiWiki/Plugin/Standard/hr
+
+L<http://pyukiwiki.info/PyukiWiki/Plugin/Standard/hr/>
+
+
+=item PyukiWiki CVSレボジトリ
+
+L<http://sfjp.jp/cvs/view/pyukiwiki/PyukiWiki-Devel/plugin/hr.pl?view=log>
+
+L<http://sfjp.jp/cvs/view/pyukiwiki/PyukiWiki-Devel-UTF8/plugin/hr.pl?view=log>
+
+L<http://cvs.pyukiwiki.info/cgi-bin/cvsweb.cgi/PyukiWiki-Devel/plugin/hr.pl?view=log>
+
+L<http://cvs.pyukiwiki.info/cgi-bin/cvsweb.cgi/PyukiWiki-Devel-UTF8/plugin/hr.pl?view=log>
+
+=back
+
+=head1 著者
+
+=over 4
+
+=item ななみ
+
+L<http://nanakochi.daiba.cx/> etc...
+
+=item PyukiWiki Developers Team
+
+L<http://pyukiwiki.info/>
+
+=back
+
+=head1 ライセンス
+
+(C)2005-2015 by ななみ.
+
+(C)2005-2015 by PyukiWiki Developers Team
+
+License is GNU GENERAL PUBLIC LICENSE 3 and/or Artistic 1 or each later version.
+
+This program is free software; you can redistribute it and/or
+modify it under the same terms as Perl itself.
+
+=cut

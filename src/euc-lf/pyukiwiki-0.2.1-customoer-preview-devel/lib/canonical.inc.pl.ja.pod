@@ -1,0 +1,84 @@
+#$Id$
+
+__END__
+=encoding euc-jp
+
+=head1 NAME
+
+canonical.inc.pl - PyukiWiki プラグイン
+
+=head1 概要
+
+検索エンジンに対して重複URLのオリジナルを指定する
+
+=head1 重要度
+
+★★☆☆☆
+
+=head1 説明
+
+検索エンジンに対して重複URLのオリジナルを指定する
+
+=head1 使用方法
+
+canonical.inc.cgi にリネームして下さい。
+
+$::canonical::url にオリジナルのURLを指定して下さい。
+
+=head1 上書きする関数
+
+なし
+
+=head1 備考
+
+CMSエンジンとして考慮すると、同一のページの別名URLの存在を消すことは、困難なことです。
+
+その時点で表示されているURLを参考にして、代表URLを指定して、その結果を検索エンジンに送ることにより、双方にメリットがあります。
+
+=head1 参考
+
+=over 4
+
+=item PyukiWiki/Plugin/ExPlugin/canonical
+
+L<http://pyukiwiki.info/PyukiWiki/Plugin/ExPlugin/canonical/>
+
+
+=item PyukiWiki CVSレボジトリ
+
+L<http://sfjp.jp/cvs/view/pyukiwiki/PyukiWiki-Devel/lib/canonical.inc.pl?view=log>
+
+L<http://sfjp.jp/cvs/view/pyukiwiki/PyukiWiki-Devel-UTF8/lib/canonical.inc.pl?view=log>
+
+L<http://cvs.pyukiwiki.info/cgi-bin/cvsweb.cgi/PyukiWiki-Devel/lib/canonical.inc.pl?view=log>
+
+L<http://cvs.pyukiwiki.info/cgi-bin/cvsweb.cgi/PyukiWiki-Devel-UTF8/lib/canonical.inc.pl?view=log>
+
+=back
+
+=head1 著者
+
+=over 4
+
+=item ななみ
+
+L<http://nanakochi.daiba.cx/> etc...
+
+=item PyukiWiki Developers Team
+
+L<http://pyukiwiki.info/>
+
+=back
+
+=head1 ライセンス
+
+(C)2005-2015 by ななみ.
+
+(C)2005-2015 by PyukiWiki Developers Team
+
+License is GNU GENERAL PUBLIC LICENSE 3 and/or Artistic 1 or each later version.
+
+This program is free software; you can redistribute it and/or
+modify it under the same terms as Perl itself.
+
+=cut

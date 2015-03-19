@@ -1,0 +1,4 @@
+# PyukiWiki Resource file (Japanese EUC-JP)
+# "PyukiWiki" ver 0.2.1-customoer-preview $$
+# $Id$
+backlink_msg=$1へ戻る

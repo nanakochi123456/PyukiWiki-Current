@@ -1,0 +1,67 @@
+#$Id$
+=head1 NAME
+
+ck.inc.pl - PyukiWiki プラグイン
+
+=head1 概要
+
+ ?cmd=ck&lk=HEXエンコードされたURL
+
+=head1 重要度
+
+★★☆☆☆
+
+=head1 説明
+
+リンクトラッキングExplugin linktrack.inc.cgi から呼び出されるプラグインです。
+
+=head1 注意
+
+各HTTPサーバー、及び、アクションにより、アクセス元が取得できない場合がありますので
+アクセス制限に関してはできませんが、16進数文字列以外が存在することにより
+チェックを行なっています。
+
+=head1 参考
+
+=over 4
+
+=item PyukiWiki/Plugin/Standard/ck
+
+L<http://pyukiwiki.info/PyukiWiki/Plugin/Standard/ck/>
+
+=item PyukiWiki CVS
+
+L<http://sfjp.jp/cvs/view/pyukiwiki/PyukiWiki-Devel/plugin/ck.inc.pl?view=log>
+
+L<http://sfjp.jp/cvs/view/pyukiwiki/PyukiWiki-Devel-UTF8/plugin/ck.inc.pl?view=log>
+
+L<http://cvs.pyukiwiki.info/cgi-bin/cvsweb.cgi/PyukiWiki-Devel/plugin/ck.inc.pl?view=log>
+
+L<http://cvs.pyukiwiki.info/cgi-bin/cvsweb.cgi/PyukiWiki-Devel-UTF8/plugin/ck.inc.pl?view=log>
+
+=head1 著者
+
+=over 4
+
+=item ななみ
+
+L<http://nanakochi.daiba.cx/> etc...
+
+=item PyukiWiki Developers Team
+
+L<http://pyukiwiki.info/>
+
+=back
+
+=head1 ライセンス
+
+(C)2005-2015 by ななみ.
+
+(C)2005-2015 by PyukiWiki Developers Team
+
+License is GNU GENERAL PUBLIC LICENSE 3 and/or Artistic 1 or each later version.
+
+This program is free software; you can redistribute it and/or
+modify it under the same terms as Perl itself.
+
+=cut

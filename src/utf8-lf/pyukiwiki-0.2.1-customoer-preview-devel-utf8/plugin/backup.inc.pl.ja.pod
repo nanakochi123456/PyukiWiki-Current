@@ -1,0 +1,82 @@
+#$Id$
+
+__END__
+=encoding utf-8
+
+=head1 NAME
+
+backup.inc.pl - PyukiWiki プラグイン
+
+=head1 概要
+
+ ?cmd=backup&mypage=ページ名
+
+ ?cmd=backup
+
+=head1 重要度
+
+★★★★★
+
+=head1 説明
+
+バックアップの作成、表示するプラグインです。
+
+compact パッケージでは wiki.cgi においてもバックアップ機能が搭載されていません。
+なお、変更履歴の詳細を見れば、その時点での書き込みIPアドレス、リモートホスト名がわかります。(要管理者認証)
+
+=head1 参考
+
+=over 4
+
+=item PyukiWiki/Plugin/Standard/backup
+
+L<http://pyukiwiki.info/PyukiWiki/Plugin/Standard/backup/>
+
+=item PyukiWiki CVS
+
+L<http://sfjp.jp/cvs/view/pyukiwiki/PyukiWiki-Devel/plugin/backup.inc.pl?view=log>
+
+L<http://sfjp.jp/cvs/view/pyukiwiki/PyukiWiki-Devel-UTF8/plugin/backup.inc.pl?view=log>
+
+L<http://cvs.pyukiwiki.info/cgi-bin/cvsweb.cgi/PyukiWiki-Devel/plugin/backup.inc.pl?view=log>
+
+L<http://cvs.pyukiwiki.info/cgi-bin/cvsweb.cgi/PyukiWiki-Devel-UTF8/plugin/backup.inc.pl?view=log>
+
+=item YukiWiki
+
+Using Yuki::DiffText
+
+L<http://www.hyuki.com/yukiwiki/>
+
+=item CPAN Algorithm::Diff
+
+L<http://search.cpan.org/dist/Algorithm-diff/>
+
+=back
+
+=head1 著者
+
+=over 4
+
+=item ななみ
+
+L<http://nanakochi.daiba.cx/> etc...
+
+=item PyukiWiki Developers Team
+
+L<http://pyukiwiki.info/>
+
+=back
+
+=head1 ライセンス
+
+(C)2005-2015 by ななみ.
+
+(C)2005-2015 by PyukiWiki Developers Team
+
+License is GNU GENERAL PUBLIC LICENSE 3 and/or Artistic 1 or each later version.
+
+This program is free software; you can redistribute it and/or
+modify it under the same terms as Perl itself.
+
+=cut

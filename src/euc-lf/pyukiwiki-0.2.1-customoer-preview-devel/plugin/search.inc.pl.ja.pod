@@ -1,0 +1,115 @@
+#$Id$
+
+__END__
+=encoding euc-jp
+
+=head1 NAME
+
+search.inc.pl - PyukiWiki プラグイン
+
+=head1 概要
+
+ ?cmd=search
+
+=head1 重要度
+
+★★★★★
+
+=head1 説明
+
+指定文字列を含むページの検索を行う。
+
+=head1 使用方法
+
+ ?cmd=search[&mymsg=string][&type=OR|AND]
+
+=over 4
+
+=item mymsg
+
+検索する文字列を指定します。
+
+=item type
+
+'OR' 指定時、OR検索を行います。(省略時はAND検索)
+
+=back
+
+ #search(0 1 or 2)
+
+検索フォームを表示します
+
+=over 4
+
+=item 0
+
+AND, ORの選択を表示しません。ANDで検索します。
+
+=item 1
+
+選択ボックスで AND, OR の選択項目を表示します。
+
+=item 2
+
+ラジオボタンで AND, OR の選択項目を表示します。
+
+=back
+
+=head1 設定
+
+=head2 pyukiwiki.ini.cgi
+
+=over 4
+
+=item $::use_FuzzySearch
+
+0:通常検索, 1:日本語あいまい検索
+
+=back
+
+=head1 参考
+
+=over 4
+
+=item PyukiWiki/Plugin/Standard/search
+
+L<http://pyukiwiki.info/PyukiWiki/Plugin/Standard/search/>
+
+=item PyukiWiki CVS
+
+L<http://sfjp.jp/cvs/view/pyukiwiki/PyukiWiki-Devel/plugin/search.inc.pl?view=log>
+
+L<http://sfjp.jp/cvs/view/pyukiwiki/PyukiWiki-Devel-UTF8/plugin/search.inc.pl?view=log>
+
+L<http://cvs.pyukiwiki.info/cgi-bin/cvsweb.cgi/PyukiWiki-Devel/plugin/search.inc.pl?view=log>
+
+L<http://cvs.pyukiwiki.info/cgi-bin/cvsweb.cgi/PyukiWiki-Devel-UTF8/plugin/search.inc.pl?view=log>
+
+=back
+
+=head1 著者
+
+=over 4
+
+=item Nekyo
+
+obsoleted
+
+=item PyukiWiki Developers Team
+
+L<http://pyukiwiki.info/>
+
+=back
+
+=head1 ライセンス
+
+(C)2004-2007 by Nekyo.
+
+(C)2005-2015 by PyukiWiki Developers Team
+
+License is GNU GENERAL PUBLIC LICENSE 3 and/or Artistic 1 or each later version.
+
+This program is free software; you can redistribute it and/or
+modify it under the same terms as Perl itself.
+
+=cut

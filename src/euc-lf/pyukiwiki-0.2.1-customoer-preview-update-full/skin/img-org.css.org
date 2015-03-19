@@ -1,0 +1,8 @@
+/* "PyukiWiki" ver 0.2.1-customoer-preview $$ */
+/* $Id$ */
+/* Code=EUC-JP */
+#icn_pyukiwiki {
+	background: url(../image/org.png) 0px 0px;
+	height: 80px;
+	width: 80px;
+}

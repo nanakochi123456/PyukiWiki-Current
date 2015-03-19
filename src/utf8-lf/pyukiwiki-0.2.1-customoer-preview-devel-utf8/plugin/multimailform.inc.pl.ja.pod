@@ -1,0 +1,51 @@
+#$Id$
+
+__END__
+=encoding utf-8
+
+=head1 NAME
+
+multimailform.inc.pl - PyukiWiki プラグイン
+
+=head1 概要
+
+ #multimailform(mail=Mail address,subject=Mail title,textarea=Body)
+
+=head1 重要度
+
+★☆☆☆☆
+
+=head1 説明
+
+高機能メールフォーム
+
+=head1 使用方法
+
+ #multimailform(name=name form,mail=Mail address,subject=Mail title,select=select|select|select,textarea=Body)
+
+=head1 著者
+
+=over 4
+
+=item ななみ
+
+L<http://nanakochi.daiba.cx/> etc...
+
+=item PyukiWiki Developers Team
+
+L<http://pyukiwiki.info/>
+
+=back
+
+=head1 ライセンス
+
+(C)2005-2015 by ななみ.
+
+(C)2005-2015 by PyukiWiki Developers Team
+
+License is GNU GENERAL PUBLIC LICENSE 3 and/or Artistic 1 or each later version.
+
+This program is free software; you can redistribute it and/or
+modify it under the same terms as Perl itself.
+
+=cut

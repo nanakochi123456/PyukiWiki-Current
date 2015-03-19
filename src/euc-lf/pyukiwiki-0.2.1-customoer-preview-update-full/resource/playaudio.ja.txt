@@ -1,0 +1,7 @@
+# PyukiWiki Resource file (Japanese EUC-JP)
+# "PyukiWiki" ver 0.2.1-customoer-preview $$
+# $Id$
+playaudio_play=再生
+playaudio_stop=停止
+playaudio_download=ダウンロード
+playaudio_notfound=再生できるファイルがありません。

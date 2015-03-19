@@ -1,0 +1,81 @@
+#$Id$
+
+__END__
+=encoding euc-jp
+
+=head1 NAME
+
+list.inc.pl - PyukiWiki プラグイン
+
+=head1 概要
+
+ ?cmd=list
+
+=head1 重要度
+
+★★★★☆
+
+=head1 説明
+
+全ページの一覧を表示します。
+
+=head1 TIPS
+
+perlモジュール MeCab、または、Text::MeCabを導入すると、ひらがなでのインデックスも作成できます。
+
+この機能は、設定で停止することもできます。
+
+=head1 参考
+
+=over 4
+
+=item PyukiWiki/Plugin/Standard/list
+
+L<http://pyukiwiki.info/PyukiWiki/Plugin/Standard/list/>
+
+=item PyukiWiki CVS
+
+L<http://sfjp.jp/cvs/view/pyukiwiki/PyukiWiki-Devel/plugin/list.inc.pl?view=log>
+
+L<http://sfjp.jp/cvs/view/pyukiwiki/PyukiWiki-Devel-UTF8/plugin/list.inc.pl?view=log>
+
+L<http://cvs.pyukiwiki.info/cgi-bin/cvsweb.cgi/PyukiWiki-Devel/plugin/list.inc.pl?view=log>
+
+L<http://cvs.pyukiwiki.info/cgi-bin/cvsweb.cgi/PyukiWiki-Devel-UTF8/plugin/list.inc.pl?view=log>
+
+=item mecab
+
+L<http://mecab.googlecode.com/>
+
+=item Daisuke Maki
+
+L<http://search.cpan.org/~dmaki/>
+
+=back
+
+=head1 著者
+
+=over 4
+
+=item Nekyo
+
+obsoleted
+
+=item PyukiWiki Developers Team
+
+L<http://pyukiwiki.info/>
+
+=back
+
+=head1 ライセンス
+
+(C)2004-2007 by Nekyo.
+
+(C)2005-2015 by PyukiWiki Developers Team
+
+License is GNU GENERAL PUBLIC LICENSE 3 and/or Artistic 1 or each later version.
+
+This program is free software; you can redistribute it and/or
+modify it under the same terms as Perl itself.
+
+=cut

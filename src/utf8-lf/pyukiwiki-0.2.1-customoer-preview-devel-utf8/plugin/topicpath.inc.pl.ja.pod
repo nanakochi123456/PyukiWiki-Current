@@ -1,0 +1,91 @@
+#$Id$
+
+__END__
+=encoding utf-8
+
+=head1 NAME
+
+topicpath.inc.pl - PyukiWiki 管理者向けプラグイン
+
+=head1 重要度
+
+★★☆☆☆
+
+=head1 概要
+
+ コンパクト版以外は自動で読み込まれます。
+ または、:Header 等のページにて &topicpath; と記述
+ または、スキンファイルに以下を記述
+  require 'plugin/topicpath.inc.pl';
+  &plugin_topicpath_inline;
+
+=head1 説明
+
+パンくずリスト(topicpath)と呼ばれる、現在参照しているウェブページの階層を表現するユーザーインターフェースを提供するプラグインです。
+
+例えば
+
+ [[PyukiWiki/ツアー]] というページは、以下のようにというページに表現されます。
+
+[[Top>FrontPage]] / [[PyukiWiki>PyukiWiki]] / [[ツアー>PyukiWiki/ツアー]]
+
+基本的には以下の２通りの使い方を想定しています。
+
+１．「ほげ/ふが/げほ」など、２佤３階層以上の深いページでページの行き来をしやすくするために表示する
+
+２．スキンに組み込み、ページタイトル下のURLの代わりに全てのページで表示する
+
+PyukiWikiでは、compact版以外はデフォルトでスキンに組み込まれています。
+
+=head1 参考
+
+=over 4
+
+=item PyukiWiki/Plugin/Admin/topicpath
+
+L<http://pyukiwiki.info/PyukiWiki/Plugin/Admin/topicpath/>
+
+=item PyukiWiki CVS
+
+L<http://sfjp.jp/cvs/view/pyukiwiki/PyukiWiki-Devel/plugin/topicpath.inc.pl?view=log>
+
+L<http://sfjp.jp/cvs/view/pyukiwiki/PyukiWiki-Devel-UTF8/plugin/topicpath.inc.pl?view=log>
+
+L<http://cvs.pyukiwiki.info/cgi-bin/cvsweb.cgi/PyukiWiki-Devel/plugin/topicpath.inc.pl?view=log>
+
+L<http://cvs.pyukiwiki.info/cgi-bin/cvsweb.cgi/PyukiWiki-Devel-UTF8/plugin/topicpath.inc.pl?view=log>
+
+=item サイト制作/PyukiWiki/プラグイン/パンくずリスト
+
+0.1.5までの対応版です。(リンク切れ）
+
+L<http://www.re-birth.com/pyuki/wiki.cgi?%a5%b5%a5%a4%a5%c8%c0%a9%ba%ee%2fPyukiWiki%2f%a5%d7%a5%e9%a5%b0%a5%a4%a5%f3%2f%a5%d1%a5%f3%a4%af%a4%ba%a5%ea%a5%b9%a5%c8>
+
+=back
+
+=head1 著者
+
+=over 4
+
+=item Junichi
+
+obsoleted
+
+=item PyukiWiki Developers Team
+
+L<http://pyukiwiki.info/>
+
+=back
+
+=head1 ライセンス
+
+(C)2005 by Junichi.
+
+(C)2005-2015 by PyukiWiki Developers Team
+
+License is GNU GENERAL PUBLIC LICENSE 3 and/or Artistic 1 or each later version.
+
+This program is free software; you can redistribute it and/or
+modify it under the same terms as Perl itself.
+
+=cut
