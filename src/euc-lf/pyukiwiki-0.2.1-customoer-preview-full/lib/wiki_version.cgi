@@ -8,12 +8,11 @@
 # http://pyukiwiki.info/
 # Based on YukiWiki http://www.hyuki.com/yukiwiki/
 # Powerd by PukiWiki http://pukiwiki.sfjp.jp/
-# License GPL3 and/or Artistic or each later version
-# CRLF EUC-JP 4Spaces GPL3 and/or Artistic License
+# CRLF EUC-JP TAB=4Spaces GPL3 and/or Artistic License
 ######################################################################
 # This is auto generation code
 ######################################################################
-$::buildnumber=2441;
-$::build="2015-03-20 08:39:30";
+$::buildnumber=2451;
+$::build="2015-03-21 00:34:39";
 $::type="full";
 1;

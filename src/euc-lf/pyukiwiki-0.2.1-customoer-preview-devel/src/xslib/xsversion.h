@@ -2,18 +2,17 @@
 ######################################################################
 # xsversion.h - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-20 08:44:59
+# Build 2015-03-21 00:34:52
 #
 # 
 # Author Nanami
-# http://nanakochi.daiba.cx/
+# http://nano.daiba.cx/
 # (C)2004-2007 Nekyo
 # (C)2005-2015 PyukiWiki Developers Team
 # http://pyukiwiki.info/
 # Based on YukiWiki http://www.hyuki.com/yukiwiki/
 # Powerd by PukiWiki http://pukiwiki.sfjp.jp/
-# License GPL3 and/or Artistic or each later version
-# CRLF EUC-JP 4Spaces GPL3 and/or Artistic License
+# CRLF EUC-JP TAB=4Spaces GPL3 and/or Artistic License
 ######################################################################
 # This is auto generation code
 ######################################################################
@@ -21,8 +20,8 @@
 
 #define	XS_PYUKIWIKI_VERSION		"0.2.1-customoer-preview"
 #define	XS_PYUKIWIKI_VERSIONNUMBER	2105
-#define	XS_PYUKIWIKI_BUILDNUMBER	2441
-#define	XS_PYUKIWIKI_BUILD			"2015-03-20 08:39:30"
+#define	XS_PYUKIWIKI_BUILDNUMBER	2451
+#define	XS_PYUKIWIKI_BUILD			"2015-03-21 00:34:39"
 #define	XS_PYUKIWIKI_TYPE			"develop"
 
 /*--------------------------------------------------------------------

@@ -1,7 +1,7 @@
 ######################################################################
 # article.inc.pl - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-20 09:20:46
+# Build 2015-03-20 12:57:11
 #
 # "PyukiWiki" ver 0.2.1-customoer-preview $$
 # Author Nekyo http://nekyo.qp.land.to/
@@ -10,8 +10,7 @@
 # http://pyukiwiki.info/
 # Based on YukiWiki http://www.hyuki.com/yukiwiki/
 # Powerd by PukiWiki http://pukiwiki.sfjp.jp/
-# License GPL3 and/or Artistic or each later version
-# CRLF UTF-8 4Spaces GPL3 and/or Artistic License
+# CRLF UTF-8 TAB=4Spaces GPL3 and/or Artistic License
 ######################################################################
 
 use strict;

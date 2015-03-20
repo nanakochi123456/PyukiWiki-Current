@@ -5,7 +5,7 @@
 # Author Nanami
 # (C)2005-2015 PyukiWiki Developers Team/2004-2007 Nekyo
 # http://pyukiwiki.info/
-# CRLF EUC-JP 4Spaces GPL3 and/or Artistic License
+# CRLF EUC-JP TAB=4Spaces GPL3 and/or Artistic License
 ######################################################################
 # v0.2.1 2012/09/28 RSS2.0、ATOMのサポート
 # v0.1.7 2006/05/19 RSSタイトルが化けるのを修正

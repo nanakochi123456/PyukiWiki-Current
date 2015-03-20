@@ -3,7 +3,7 @@
 # $Id$
 #
 # "PyukiWiki" ver 0.2.1-customoer-preview $$
-# Author Nanami http://nanakochi.daiba.cx/
+# Author Nanami http://nano.daiba.cx/
 # (C)2000-2015 - Laurent Destailleur - eldy.sourceforge.net
 # http://awstats.sf.net/
 # (C)2004-2007 Nekyo
@@ -11,11 +11,7 @@
 # http://pyukiwiki.info/
 # Based on YukiWiki http://www.hyuki.com/yukiwiki/
 # Powerd by PukiWiki http://pukiwiki.sfjp.jp/
-# License GPL3 and/or Artistic or each later version
-#
-# This program is free software; you can redistribute it and/or
-# modify it under the same terms as Perl itself.
-# Return=CRLF Code=EUC-JP 1TAB=4Spaces
+# CRLF EUC-JP TAB=4Spaces GPL3 and/or Artistic License
 ######################################################################
 # AWSTATS DOMAINS DATABASE
 #-------------------------------------------------------

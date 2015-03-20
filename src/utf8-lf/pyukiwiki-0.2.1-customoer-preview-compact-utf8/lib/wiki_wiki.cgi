@@ -3,7 +3,7 @@
 # "PyukiWiki" ver 0.2.1-customoer-preview $$
 # (C)2005-2015 PyukiWiki Developers Team/2004-2007 Nekyo
 # http://pyukiwiki.info/
-# CRLF UTF-8 4Spaces GPL3 and/or Artistic License
+# CRLF UTF-8 TAB=4Spaces GPL3 and/or Artistic License
 ######################################################################
 sub _do_read {
 	my($title)=@_;

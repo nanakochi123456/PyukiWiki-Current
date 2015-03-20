@@ -8,8 +8,7 @@
 # http://pyukiwiki.info/
 # Based on YukiWiki http://www.hyuki.com/yukiwiki/
 # Powerd by PukiWiki http://pukiwiki.sfjp.jp/
-# License GPL3 and/or Artistic or each later version
-# CRLF EUC-JP 4Spaces GPL3 and/or Artistic License
+# CRLF EUC-JP TAB=4Spaces GPL3 and/or Artistic License
 ######################################################################
 	# SGMLの顔文字のエスケープコードの実体参照の正規表現		# comment
 $::_sgmlescape=q{aelig|aacute|acirc|agrave|aring|atilde|auml|ccedil|eth|eacute|ecirc|egrave|euml|iacute|icirc|igrave|iuml|ntilde|oacute|ocirc|ograve|oslash|otilde|oumltimes|thorn|uacute|ucirc|ugrave|uuml|yacute|acute|amp|bdquo|big|big_plus|bigsmile|brvbar|bull|cedil|cent|copy|curren|dagger|deg|divide|euro|frac12|frac14|frac34|heart|heart2|heartplus|huh|iexcl|iquest|laquo|ldquo|lsquo|macr|mdash|micro|middot|nbsp|ndash|not|oh|oh2|ohplus|ordf|ordm|ouml|para|permil|plusmn|pound|raquo|rdquo|reg|rsquo|sad|sad2|sadplus|sbquo|sect|shy|smile|smile2|smileplus|star|sup1|sup2|sup3|szlig|tear|trade|uml|ummr|wink|wink2|winkplus|worried|worried2|worriedplus|yen|yuml};
@@ -83,9 +82,11 @@ my $oldflg=0;
 sub _jscss_include {
 	my($v, $sub, $p)=@_;
 	my($name, $func)=split(/:/,$v);
+	my @jsarray;
+	my $jsmax=0;
 	if(!$::jscss_included{$name}) {
 		if($oldflg eq 0) {
-			$oldflg=&_is_no_xhtml(1) eq 0 ? 2 : 1;
+			$oldflg=&is_no_xhtml(1) eq 0 ? 2 : 1;
 		}
 		$::jscss_included{$name}=1;
 		return if($name!~/^\w{1,64}/);
@@ -93,27 +94,18 @@ sub _jscss_include {
 			my $result=&skin_check($_, "");
 			if($result ne '') {
 				if($result=~/\.js$/) {
-					if($oldflg eq 2) {
-						if(!$::jscss_included{"loader"}) {
-							$::IN_JSLOADER.=<<EOM;
-<script type="text/javascript" src="$::skin_url/loader.js" charset="$::charset"></script>
-EOM
-							$::jscss_included{"loader"}=2;
-						}
 						my $pro=$p + 0 > 0 ? $p : $name=~/common/ ? 6 : $name eq "jquery" ? 9 : $name=~/jquery/ ? 7 : 3;
 	#					my $pro=$p+0>0 ? $p : $_pro;
-						$::IN_JSFILES.=',"' . "$pro,$::skin_url/$result@{[$func ? qq(\|$func) : qq()]}" . '"';
-					} else {
-							$::IN_JSLOADER.=<<EOM;
-<script type="text/javascript" src="$::skin_url/$result" charset="$::charset"></script>
-EOM
-					}
+						#$::IN_JSFILES.=',"' . "$pro,$::skin_url/$result@{[$func ? qq(\|$func) : qq()]}" . '"';
+						#$::IN_JSFILES.="," . '"' . "$pro,$::skin_url/$result" . '"';
+						$::IN_JSMAX=$::IN_JSMAX+0 < $pro ? $pro : $::IN_JSMAX+0;
+						$::IN_JSARRAY[$pro].="\t$result";
+#<script type="text/javascript" src="$::skin_url/$result" charset="$::charset"></script>
+#EOM
 					$::jscss_included{$name}=2;
 				} elsif($result=~/\.css$/) {
 					$sub='media="screen"' if($sub eq "");
-					$::IN_CSSFILES.=<<EOM;
-<link rel="stylesheet" href="$::skin_url/$result" type="text/css" $sub charset="$::charset" />
-EOM
+					push(@::CSSFILES, "$result\t$sub");
 					$::jscss_included{$name}=2;
 				}
 			}

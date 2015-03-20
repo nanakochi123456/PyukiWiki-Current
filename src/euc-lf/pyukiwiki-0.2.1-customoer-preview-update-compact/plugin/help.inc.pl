@@ -5,7 +5,7 @@
 # Author Nanami
 # (C)2005-2015 PyukiWiki Developers Team/2004-2007 Nekyo
 # http://pyukiwiki.info/
-# CRLF Shift-JIS 4Spaces GPL3 and/or Artistic License
+# CRLF Shift-JIS TAB=4Spaces GPL3 and/or Artistic License
 ######################################################################
 sub plugin_help_action {
 	$::form{mypage}=$::resource{help};

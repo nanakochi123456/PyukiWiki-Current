@@ -5,7 +5,7 @@
 # Author Nanami
 # (C)2005-2015 PyukiWiki Developers Team/2004-2007 Nekyo
 # http://pyukiwiki.info/
-# CRLF EUC-JP 4Spaces GPL3 and/or Artistic License
+# CRLF EUC-JP TAB=4Spaces GPL3 and/or Artistic License
 ######################################################################
 # v0.2.1 2012/09/27 JavaScriptでの移動をできるようにした。
 # v0.2.1 2012/04/25 0のとき、Locationヘッダで移動するようにした。

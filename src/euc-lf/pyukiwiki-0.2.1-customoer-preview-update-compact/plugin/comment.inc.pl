@@ -5,7 +5,7 @@
 # Author Nekyo
 # (C)2005-2015 PyukiWiki Developers Team/2004-2007 Nekyo
 # http://pyukiwiki.info/
-# CRLF EUC-JP 4Spaces GPL3 and/or Artistic License
+# CRLF EUC-JP TAB=4Spaces GPL3 and/or Artistic License
 ######################################################################
 # v 0.0.3 - 2006/01/15 Tnx:Birgus-Latro
 # v 0.0.2 - 2004/10/28 Tnx:Birgus-Latro

@@ -5,7 +5,7 @@
 # Author Nekyo
 # (C)2005-2015 PyukiWiki Developers Team/2004-2007 Nekyo
 # http://pyukiwiki.info/
-# CRLF EUC-JP 4Spaces GPL3 and/or Artistic License
+# CRLF EUC-JP TAB=4Spaces GPL3 and/or Artistic License
 ######################################################################
 $new::dates_short=1*24*60*60
 	if(!defined($new::dates_short));

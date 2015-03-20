@@ -5,7 +5,7 @@
 # Author Nekyo
 # (C)2005-2015 PyukiWiki Developers Team/2004-2007 Nekyo
 # http://pyukiwiki.info/
-# CRLF EUC-JP 4Spaces GPL3 and/or Artistic License
+# CRLF EUC-JP TAB=4Spaces GPL3 and/or Artistic License
 ######################################################################
 # v 0.1.9 #recent(count,表示しないページの正規表現) を追加
 # v 0.1.6 半角スペースのページに対応、Time::Localを使用

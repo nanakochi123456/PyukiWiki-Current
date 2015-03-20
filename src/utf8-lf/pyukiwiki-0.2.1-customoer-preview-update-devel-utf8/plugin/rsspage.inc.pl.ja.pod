@@ -63,7 +63,7 @@ L<http://www.hyuki.com/yukiwiki/wiki.cgi>
 
 =item ななみ
 
-L<http://nanakochi.daiba.cx/> etc...
+L<http://nano.daiba.cx/> etc...
 
 =item PyukiWiki Developers Team
 

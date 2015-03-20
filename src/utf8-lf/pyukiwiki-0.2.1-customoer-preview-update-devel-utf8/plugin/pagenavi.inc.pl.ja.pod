@@ -77,7 +77,7 @@ L<http://cvs.pyukiwiki.info/cgi-bin/cvsweb.cgi/PyukiWiki-Devel-UTF8/plugin/pagen
 
 =item ななみ
 
-L<http://nanakochi.daiba.cx/> etc...
+L<http://nano.daiba.cx/> etc...
 
 =item PyukiWiki Developers Team
 

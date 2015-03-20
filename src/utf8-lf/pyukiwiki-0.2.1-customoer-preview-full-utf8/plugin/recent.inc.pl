@@ -9,8 +9,7 @@
 # http://pyukiwiki.info/
 # Based on YukiWiki http://www.hyuki.com/yukiwiki/
 # Powerd by PukiWiki http://pukiwiki.sfjp.jp/
-# License GPL3 and/or Artistic or each later version
-# CRLF UTF-8 4Spaces GPL3 and/or Artistic License
+# CRLF UTF-8 TAB=4Spaces GPL3 and/or Artistic License
 ######################################################################
 # v 0.1.9 #recent(count,表示しないページの正規表現) を追加
 # v 0.1.6 半角スペースのページに対応、Time::Localを使用

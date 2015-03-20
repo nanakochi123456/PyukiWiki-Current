@@ -1,18 +1,17 @@
 ######################################################################
 # Kana.pm - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-20 09:08:38
+# Build 2015-03-20 12:44:18
 #
 # "Nana::Kana" ver 0.1 $$
 # Author Nanami
-# http://nanakochi.daiba.cx/
+# http://nano.daiba.cx/
 # (C)2004-2007 Nekyo
 # (C)2005-2015 PyukiWiki Developers Team
 # http://pyukiwiki.info/
 # Based on YukiWiki http://www.hyuki.com/yukiwiki/
 # Powerd by PukiWiki http://pukiwiki.sfjp.jp/
-# License GPL3 and/or Artistic or each later version
-# CRLF UTF-8 4Spaces GPL3 and/or Artistic License
+# CRLF UTF-8 TAB=4Spaces GPL3 and/or Artistic License
 ######################################################################
 
 package Nana::Kana;
@@ -21,6 +20,9 @@ use integer;
 use Exporter;
 use vars qw($VERSION);
 $VERSION="0.1";
+
+# Text::MeCab が動作しない環境があるため
+$::force_text_mecab=0 if($::force_text_mecab ne 0);
 
 # http://chalow.net/2006-02-25-4.html
 # http://chalow.net/2006-09-24-3.html
@@ -127,7 +129,7 @@ sub new {
 	if(&load_module("MeCab")) {
 		$method="MeCab";
 		$obj=new MeCab::Tagger ("");
-	} elsif(&load_module("Text::MeCab")) {
+	} elsif(&load_module("Text::MeCab") && $::force_text_mecab) {
 		$method="Text::MeCab";
 		$obj=Text::MeCab->new();
 	} else {
@@ -283,7 +285,7 @@ L<http://cvs.pyukiwiki.info/cgi-bin/cvsweb.cgi/PyukiWiki-Devel-UTF8/lib/Nana/Kan
 
 =item Nanami
 
-L<http://nanakochi.daiba.cx/> etc...
+L<http://nano.daiba.cx/> etc...
 
 =item PyukiWiki Developers Team
 

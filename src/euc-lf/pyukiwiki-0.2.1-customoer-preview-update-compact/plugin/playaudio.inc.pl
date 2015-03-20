@@ -2,10 +2,10 @@
 # playaudio.inc.pl - $Id$
 #
 # "playaudio" ver 0.1 $$
-# Author Nanami http://nanakochi.daiba.cx/
+# Author Nanami http://nano.daiba.cx/
 # (C)2005-2015 PyukiWiki Developers Team/2004-2007 Nekyo
 # http://pyukiwiki.info/
-# CRLF EUC-JP 4Spaces GPL3 and/or Artistic License
+# CRLF EUC-JP TAB=4Spaces GPL3 and/or Artistic License
 ######################################################################
 # 2012/02/18 change: WMVがなくてもMP4があれば一応動くようにした。
 #                    その為、アップロード時に MP4::Infoが必要になります。

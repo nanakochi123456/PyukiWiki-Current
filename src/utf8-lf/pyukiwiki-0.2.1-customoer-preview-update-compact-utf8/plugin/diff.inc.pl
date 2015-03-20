@@ -5,7 +5,7 @@
 # Author Nekyo
 # (C)2005-2015 PyukiWiki Developers Team/2004-2007 Nekyo
 # http://pyukiwiki.info/
-# CRLF UTF-8 4Spaces GPL3 and/or Artistic License
+# CRLF UTF-8 TAB=4Spaces GPL3 and/or Artistic License
 ######################################################################
 # v0.2.0 add delete action and no diff of no print
 # v0.2 BugFix $diffbase -> $::diffbase Tnx! Mr.Yashigani-modoki.

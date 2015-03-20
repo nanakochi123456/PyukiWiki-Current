@@ -60,7 +60,7 @@ L<http://twitstat.us/>
 
 =item ¤Ê¤Ê¤ß
 
-L<http://nanakochi.daiba.cx/> etc...
+L<http://nano.daiba.cx/> etc...
 
 =item PyukiWiki Developers Team
 

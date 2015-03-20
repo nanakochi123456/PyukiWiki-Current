@@ -4,14 +4,13 @@
 #
 # "Nana::Kana" ver 0.1 $$
 # Author Nanami
-# http://nanakochi.daiba.cx/
+# http://nano.daiba.cx/
 # (C)2004-2007 Nekyo
 # (C)2005-2015 PyukiWiki Developers Team
 # http://pyukiwiki.info/
 # Based on YukiWiki http://www.hyuki.com/yukiwiki/
 # Powerd by PukiWiki http://pukiwiki.sfjp.jp/
-# License GPL3 and/or Artistic or each later version
-# CRLF EUC-JP 4Spaces GPL3 and/or Artistic License
+# CRLF Shift-JIS TAB=4Spaces GPL3 and/or Artistic License
 ######################################################################
 package Nana::Kana;
 use strict;
@@ -19,6 +18,8 @@ use integer;
 use Exporter;
 use vars qw($VERSION);
 $VERSION="0.1";
+# Text::MeCab ‚ª“®ì‚µ‚È‚¢ŠÂ‹«‚ª‚ ‚é‚½‚ß
+$::force_text_mecab=0 if($::force_text_mecab ne 0);
 # http://chalow.net/2006-02-25-4.html
 # http://chalow.net/2006-09-24-3.html
 #$Kana::EUCPRE = qr{\@\@exec="./build/search_eucpre.regex"@@};
@@ -119,7 +120,7 @@ sub new {
 	if(&load_module("MeCab")) {
 		$method="MeCab";
 		$obj=new MeCab::Tagger ("");
-	} elsif(&load_module("Text::MeCab")) {
+	} elsif(&load_module("Text::MeCab") && $::force_text_mecab) {
 		$method="Text::MeCab";
 		$obj=Text::MeCab->new();
 	} else {

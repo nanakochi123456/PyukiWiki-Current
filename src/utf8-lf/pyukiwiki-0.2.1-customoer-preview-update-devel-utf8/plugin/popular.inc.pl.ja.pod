@@ -81,7 +81,7 @@ L<http://hpcgi1.nifty.com/it2f/wikinger/pyukiwiki.cgi?PyukiWiki%2f%a5%d7%a5%e9%a
 
 =item ななみ
 
-L<http://nanakochi.daiba.cx/> etc...
+L<http://nano.daiba.cx/> etc...
 
 =item PyukiWiki Developers Team
 

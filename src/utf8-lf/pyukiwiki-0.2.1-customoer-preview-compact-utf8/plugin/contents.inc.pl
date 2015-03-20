@@ -5,7 +5,7 @@
 # Author Nekyo
 # (C)2005-2015 PyukiWiki Developers Team/2004-2007 Nekyo
 # http://pyukiwiki.info/
-# CRLF UTF-8 4Spaces GPL3 and/or Artistic License
+# CRLF UTF-8 TAB=4Spaces GPL3 and/or Artistic License
 ######################################################################
 # v0.2.1 2012/10/10 アンカー名の取り扱い方法を変更
 # v0.1.7 2006/05/26 #contents(他ページ) で他ページのコンテンツが表示

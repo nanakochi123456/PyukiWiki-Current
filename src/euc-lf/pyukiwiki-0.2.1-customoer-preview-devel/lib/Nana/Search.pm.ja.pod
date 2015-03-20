@@ -29,7 +29,7 @@ Internal charactor set is Japanese of EUC or UTF8 only
 
 =item ¤Ê¤Ê¤ß
 
-L<http://nanakochi.daiba.cx/> etc...
+L<http://nano.daiba.cx/> etc...
 
 =item PyukiWiki Developers Team
 

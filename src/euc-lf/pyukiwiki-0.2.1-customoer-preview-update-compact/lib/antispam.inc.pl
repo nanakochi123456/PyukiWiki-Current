@@ -5,7 +5,7 @@
 # Author Nanami
 # (C)2005-2015 PyukiWiki Developers Team/2004-2007 Nekyo
 # http://pyukiwiki.info/
-# CRLF EUC-JP 4Spaces GPL3 and/or Artistic License
+# CRLF EUC-JP TAB=4Spaces GPL3 and/or Artistic License
 ######################################################################
 # This is extented plugin.
 # To use this plugin, rename to 'antispam.inc.cgi'

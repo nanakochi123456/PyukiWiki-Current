@@ -3,7 +3,7 @@
 # "PyukiWiki" ver 0.2.1-customoer-preview $$
 # (C)2005-2015 PyukiWiki Developers Team/2004-2007 Nekyo
 # http://pyukiwiki.info/
-# CRLF EUC-JP 4Spaces GPL3 and/or Artistic License
+# CRLF EUC-JP TAB=4Spaces GPL3 and/or Artistic License
 ######################################################################
 sub _exec_plugin {
 	my $exec = 1;
