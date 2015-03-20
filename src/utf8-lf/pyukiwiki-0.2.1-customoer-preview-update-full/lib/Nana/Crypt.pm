@@ -1,7 +1,7 @@
 ######################################################################
 # Crypt.pm - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 08:35:00
+# Build 2015-03-20 08:53:44
 #
 # "Nana::Crypt" ver 0.2 $$
 # Author Nanami

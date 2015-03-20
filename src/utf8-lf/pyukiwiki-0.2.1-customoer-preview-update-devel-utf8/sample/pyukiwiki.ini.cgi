@@ -1,7 +1,7 @@
 ######################################################################
 # pyukiwiki.ini.cgi - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 09:09:36
+# Build 2015-03-20 09:25:29
 #
 # "PyukiWiki" ver 0.2.1-customoer-preview $$
 # (C)2004-2007 Nekyo

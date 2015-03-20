@@ -2,7 +2,7 @@
 ######################################################################
 # xs_split.c - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 08:58:59
+# Build 2015-03-20 09:17:15
 #
 # 
 # Author Nanami

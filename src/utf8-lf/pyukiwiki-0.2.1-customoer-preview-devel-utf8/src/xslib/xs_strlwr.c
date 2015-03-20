@@ -2,7 +2,7 @@
 ######################################################################
 # xs_strlwr.c - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 08:59:00
+# Build 2015-03-20 09:17:16
 #
 # 
 # Author Nanami

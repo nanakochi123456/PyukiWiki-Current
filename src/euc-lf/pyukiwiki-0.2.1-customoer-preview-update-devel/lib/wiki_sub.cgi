@@ -1,7 +1,7 @@
 ######################################################################
 # wiki_sub.cgi - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 08:24:02
+# Build 2015-03-20 08:45:48
 #
 # "PyukiWiki" ver 0.2.1-customoer-preview $$
 # (C)2004-2007 Nekyo
@@ -170,7 +170,10 @@ modify it under the same terms as Perl itself.
 "skinex"=>\&skinex,
 "maketitle"=>\&maketitle,
 "convtime"=>\&convtime,
-"skinhead"=>\&skinhead,
+"cssloader"=>\&cssloader,
+"jsloader"=>\&jsloader,
+"skin_head"=>\&skin_head,
+"skin_last"=>\&skin_last,
 "makenavigator"=>\&makenavigator,
 "makenavigator_sub1"=>\&makenavigator_sub1,
 "makenavigator_sub2"=>\&makenavigator_sub2,
@@ -402,8 +405,14 @@ sub skinex {&load_wiki_module("skin");return &_skinex(@_);}
 sub maketitle {&load_wiki_module("skin");return &_maketitle(@_);}
 # Function convtime (wiki_skin.cgi)				# comment
 sub convtime {&load_wiki_module("skin");return &_convtime(@_);}
-# Function skinhead (wiki_skin.cgi)				# comment
-sub skinhead {&load_wiki_module("skin");return &_skinhead(@_);}
+# Function cssloader (wiki_skin.cgi)				# comment
+sub cssloader {&load_wiki_module("skin");return &_cssloader(@_);}
+# Function jsloader (wiki_skin.cgi)				# comment
+sub jsloader {&load_wiki_module("skin");return &_jsloader(@_);}
+# Function skin_head (wiki_skin.cgi)				# comment
+sub skin_head {&load_wiki_module("skin");return &_skin_head(@_);}
+# Function skin_last (wiki_skin.cgi)				# comment
+sub skin_last {&load_wiki_module("skin");return &_skin_last(@_);}
 # Function makenavigator (wiki_skin.cgi)				# comment
 sub makenavigator {&load_wiki_module("skin");return &_makenavigator(@_);}
 # Function makenavigator_sub1 (wiki_skin.cgi)				# comment

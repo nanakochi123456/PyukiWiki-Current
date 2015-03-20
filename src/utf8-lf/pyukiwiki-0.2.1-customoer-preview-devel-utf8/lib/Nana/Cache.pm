@@ -1,7 +1,7 @@
 ######################################################################
 # Cache.pm - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 08:50:34
+# Build 2015-03-20 09:08:21
 #
 # "Nana::Cache" ver 0.2 $$
 # Author Nanami

@@ -6,7 +6,7 @@
 ######################################################################
 # index.cgi - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 08:34:41
+# Build 2015-03-20 08:53:19
 #
 # "PyukiWiki" ver 0.2.1-customoer-preview $$
 # (C)2004-2007 Nekyo
@@ -30,7 +30,7 @@ BEGIN {
 	$::setup_file="";
 	$::ini_file = "pyukiwiki.ini.cgi" if($::ini_file eq "");
 	require "$::ini_file";
-	require "$::$setup_file" if(-r "$::setup_file");
+	require "$::setup_file" if(-r "$::setup_file");
 	# don't delete for XS module
 	push @INC, "$sysxs_dir";
 	push @INC, "$sysxs_dir/lib";

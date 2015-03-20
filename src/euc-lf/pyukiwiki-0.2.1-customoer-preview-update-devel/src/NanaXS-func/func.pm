@@ -1,7 +1,7 @@
 ######################################################################
 # func.pm - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 08:24:46
+# Build 2015-03-20 08:46:30
 #
 # "NanaXS::func" ver 0.1 $$
 # Author Nanami

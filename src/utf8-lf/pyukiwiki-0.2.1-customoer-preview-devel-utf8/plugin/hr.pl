@@ -1,7 +1,7 @@
 ######################################################################
 # hr.pl - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 08:52:54
+# Build 2015-03-20 09:11:03
 #
 # "PyukiWiki" ver 0.2.1-customoer-preview $$
 # Author Nanami http://nanakochi.daiba.cx/

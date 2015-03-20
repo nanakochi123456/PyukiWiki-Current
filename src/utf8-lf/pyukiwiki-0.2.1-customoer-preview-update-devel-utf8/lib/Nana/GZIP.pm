@@ -1,7 +1,7 @@
 ######################################################################
 # GZIP.pm - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 09:04:05
+# Build 2015-03-20 09:19:13
 #
 # "Nana::GZIP" ver 0.1 $$
 # Author Nanami

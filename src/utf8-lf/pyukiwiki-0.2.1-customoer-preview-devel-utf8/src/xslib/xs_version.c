@@ -2,7 +2,7 @@
 ######################################################################
 # xs_version.c - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 08:59:03
+# Build 2015-03-20 09:17:20
 #
 # 
 # Author Nanami

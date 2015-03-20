@@ -2,7 +2,7 @@
 ######################################################################
 # version.h - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 09:11:49
+# Build 2015-03-20 09:27:59
 #
 # 
 # Author Nanami

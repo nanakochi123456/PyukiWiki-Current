@@ -1,7 +1,7 @@
 ######################################################################
 # rename.inc.pl - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 08:53:48
+# Build 2015-03-20 09:12:10
 #
 # "PyukiWiki" ver 0.2.1-customoer-preview $$
 # Author Junichi http://www.re-birth.com/

@@ -1,7 +1,7 @@
 ######################################################################
 # ipv6check.inc.pl - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 09:06:21
+# Build 2015-03-20 09:21:43
 #
 # "PyukiWiki" ver 0.2.1-customoer-preview $$
 # Author Nanami http://nanakochi.daiba.cx/

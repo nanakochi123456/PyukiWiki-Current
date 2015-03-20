@@ -1,7 +1,7 @@
 ######################################################################
 # stationary.inc.pl - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 08:56:39
+# Build 2015-03-20 09:15:01
 #
 # "PyukiWiki" ver 0.2.1-customoer-preview $$
 # (C)2004-2007 Nekyo

@@ -1,7 +1,7 @@
 ######################################################################
 # YukiWikiDB.pm - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 08:18:58
+# Build 2015-03-20 08:44:09
 #
 # "Nana::YukiWikiDB" ver 0.9 $$
 # Author Nanami

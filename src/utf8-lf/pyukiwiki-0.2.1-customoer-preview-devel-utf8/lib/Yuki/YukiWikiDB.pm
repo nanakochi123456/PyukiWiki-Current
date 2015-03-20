@@ -1,7 +1,7 @@
 ######################################################################
 # YukiWikiDB.pm - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 08:51:06
+# Build 2015-03-20 09:08:57
 #
 # "Yuki::YukiWikiDB" ver 2.1.2a $$
 # Author Hiroshi Yuki

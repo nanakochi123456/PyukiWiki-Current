@@ -1,7 +1,7 @@
 ######################################################################
 # stationary_explugin.inc.pl - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 08:38:55
+# Build 2015-03-20 08:57:55
 #
 # "PyukiWiki" ver 0.2.1-customoer-preview $$
 # Author Nanami http://nanakochi.daiba.cx/

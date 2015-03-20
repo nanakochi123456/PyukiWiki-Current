@@ -2,7 +2,7 @@
 ######################################################################
 # func.xs - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 08:19:49
+# Build 2015-03-20 08:44:57
 #
 # 
 # Author Nanami

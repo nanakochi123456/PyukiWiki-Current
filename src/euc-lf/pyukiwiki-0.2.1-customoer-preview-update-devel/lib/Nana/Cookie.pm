@@ -1,7 +1,7 @@
 ######################################################################
 # Cookie.pm - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 08:23:51
+# Build 2015-03-20 08:45:37
 #
 # "Nana::Cookie" ver 0.2 $$
 # Author Nanami

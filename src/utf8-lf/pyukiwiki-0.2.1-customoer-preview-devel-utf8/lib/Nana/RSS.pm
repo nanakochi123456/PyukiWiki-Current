@@ -1,7 +1,7 @@
 ######################################################################
 # RSS.pm - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 08:50:55
+# Build 2015-03-20 09:08:49
 #
 # "Nana::RSS" ver 0.3 $$
 # Author Nanami

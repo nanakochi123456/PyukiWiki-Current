@@ -1,7 +1,7 @@
 ######################################################################
 # iecompatiblehack.inc.pl - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 08:14:27
+# Build 2015-03-20 08:41:06
 #
 # "PyukiWiki" ver 0.2.1-customoer-preview $$
 # Author Nanami http://nanakochi.daiba.cx/
@@ -24,6 +24,11 @@
 sub plugin_iecompatiblehack_init {
 	my $agent=$ENV{HTTP_USER_AGENT};
 	my $header;
+	if($ENV{HTTP_USER_AGENT}=~/Trident\/\d+.\d+; rv:(\d+).(\d+)/) {
+		$header=<<EOM;
+X-UA-Compatible: IE=$1
+EOM
+	}
 	if($ENV{HTTP_USER_AGENT}=~/MSIE (\d+).(\d+)/) {
 		if($1 > 6) {
 			$header=<<EOM;

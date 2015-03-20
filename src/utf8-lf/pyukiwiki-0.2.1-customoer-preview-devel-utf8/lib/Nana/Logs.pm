@@ -1,7 +1,7 @@
 ######################################################################
 # Logs.pm - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 08:50:49
+# Build 2015-03-20 09:08:42
 #
 # "Nana::Logs" ver 0.3 $$
 # Author Nanami

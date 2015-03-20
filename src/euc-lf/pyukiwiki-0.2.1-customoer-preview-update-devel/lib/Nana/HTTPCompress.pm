@@ -1,7 +1,7 @@
 ######################################################################
 # HTTPCompress.pm - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 08:23:54
+# Build 2015-03-20 08:45:39
 #
 # "Nana::HTTPCompress" ver 0.2 $$
 # Author Nanami

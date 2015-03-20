@@ -1,7 +1,7 @@
 ######################################################################
 # ServerInfo.pm - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 08:23:55
+# Build 2015-03-20 08:45:41
 #
 # "Nana::ServerInfo" ver 0.1 $$
 # Author Nanami

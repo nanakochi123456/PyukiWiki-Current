@@ -1,7 +1,7 @@
 ######################################################################
 # OpenID.pm - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 08:14:25
+# Build 2015-03-20 08:41:03
 #
 # "Nana::OpenID::YahooJapan" ver 0.1 $$
 # Author Nanami

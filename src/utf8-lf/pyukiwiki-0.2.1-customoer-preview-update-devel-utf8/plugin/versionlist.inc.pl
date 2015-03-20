@@ -1,7 +1,7 @@
 ######################################################################
 # versionlist.inc.pl - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 09:07:58
+# Build 2015-03-20 09:23:33
 #
 # "PyukiWiki" ver 0.2.1-customoer-preview $$
 # Author Nanami http://nanakochi.daiba.cx/

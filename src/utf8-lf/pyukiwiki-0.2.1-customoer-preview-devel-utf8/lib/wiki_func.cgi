@@ -1,7 +1,7 @@
 ######################################################################
 # wiki_func.cgi - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 08:51:47
+# Build 2015-03-20 09:09:46
 #
 # "PyukiWiki" ver 0.2.1-customoer-preview $$
 # (C)2004-2007 Nekyo

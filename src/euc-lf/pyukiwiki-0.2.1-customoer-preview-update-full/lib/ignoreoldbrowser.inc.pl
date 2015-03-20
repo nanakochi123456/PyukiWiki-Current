@@ -1,7 +1,7 @@
 ######################################################################
 # ignoreoldbrowser.inc.pl - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 08:14:27
+# Build 2015-03-20 08:41:06
 #
 # "PyukiWiki" ver 0.2.1-customoer-preview $$
 # Author Nanami http://nanakochi.daiba.cx/
@@ -53,6 +53,10 @@ sub plugin_ignoreoldbrowser_init {
 				my $ver;
 				if($ua=~/opera\/(\d+)\.(\d+)/) {
 					$browser="opera";
+					$ver=$1;
+				}
+				if($ua=~/trident\/\d+.\d+; rv:(\d+).(\d+)/) {
+					$browser="msie";
 					$ver=$1;
 				}
 				if($ua=~/msie(\d+).(\d+)/) {

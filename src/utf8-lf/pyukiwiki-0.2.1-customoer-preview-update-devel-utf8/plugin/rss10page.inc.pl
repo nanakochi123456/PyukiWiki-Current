@@ -1,7 +1,7 @@
 ######################################################################
 # rss10page.inc.pl - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 09:07:15
+# Build 2015-03-20 09:22:47
 #
 # "PyukiWiki" ver 0.2.1-customoer-preview $$
 # Author Nekyo http://nekyo.qp.land.to/
@@ -15,7 +15,7 @@
 ######################################################################
 # rss10page.inc.pl - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 09:07:15
+# Build 2015-03-20 09:22:47
 #
 # "PyukiWiki" ver 0.2.1-customoer-preview $$
 # Author Nekyo http://nekyo.qp.land.to/

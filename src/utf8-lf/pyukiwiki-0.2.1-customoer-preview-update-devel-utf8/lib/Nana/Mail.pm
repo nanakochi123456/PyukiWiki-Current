@@ -1,7 +1,7 @@
 ######################################################################
 # Mail.pm - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 09:04:14
+# Build 2015-03-20 09:19:21
 #
 # "Nana::Mail" ver 0.7 $$
 # Author Nanami

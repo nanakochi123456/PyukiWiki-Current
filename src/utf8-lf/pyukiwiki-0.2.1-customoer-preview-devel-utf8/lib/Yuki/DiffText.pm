@@ -1,7 +1,7 @@
 ######################################################################
 # DiffText.pm - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 08:51:05
+# Build 2015-03-20 09:08:57
 #
 # "Yuki::DiffText" ver 0.1 $$
 # Author Hiroshi Yuki

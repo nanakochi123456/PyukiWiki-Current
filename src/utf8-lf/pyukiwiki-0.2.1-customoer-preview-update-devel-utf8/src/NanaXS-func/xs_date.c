@@ -2,7 +2,7 @@
 ######################################################################
 # xs_date.c - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 09:11:33
+# Build 2015-03-20 09:27:41
 #
 # 
 # Author Nanami

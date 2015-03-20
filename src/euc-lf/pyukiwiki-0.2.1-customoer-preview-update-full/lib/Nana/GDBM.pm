@@ -1,7 +1,7 @@
 ######################################################################
 # GDBM.pm - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 08:14:24
+# Build 2015-03-20 08:41:02
 #
 # "Nana::GDBM" ver 0.1 $$
 # Author Nanami

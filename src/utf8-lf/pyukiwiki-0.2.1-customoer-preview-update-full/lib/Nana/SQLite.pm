@@ -1,7 +1,7 @@
 ######################################################################
 # SQLite.pm - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 08:35:18
+# Build 2015-03-20 08:54:03
 #
 # "Nana::SQLite" ver 0.1 $$
 # Author Nanami

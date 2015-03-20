@@ -2,7 +2,7 @@
 ######################################################################
 # xs_strstr.c - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 08:24:47
+# Build 2015-03-20 08:46:31
 #
 # 
 # Author Nanami

@@ -1,7 +1,7 @@
 ######################################################################
 # vote.inc.pl - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 08:37:21
+# Build 2015-03-20 08:56:13
 #
 # "PyukiWiki" ver 0.2.1-customoer-preview $$
 # Author Nekyo http://nekyo.qp.land.to/

@@ -1,7 +1,7 @@
 ######################################################################
 # size.pl - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 08:54:13
+# Build 2015-03-20 09:12:41
 #
 # "PyukiWiki" ver 0.2.1-customoer-preview $$
 # Author Nekyo http://nekyo.qp.land.to/

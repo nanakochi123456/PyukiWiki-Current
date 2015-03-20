@@ -1,7 +1,7 @@
 ######################################################################
 # RSS.pm - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 08:35:25
+# Build 2015-03-20 08:54:10
 #
 # "Yuki::RSS" ver 0.3 $$
 # Author Hiroshi Yuki

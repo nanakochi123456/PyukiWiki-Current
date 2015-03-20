@@ -1,7 +1,7 @@
 ######################################################################
 # wiki_version.cgi - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-19 08:51:54
+# Build 2015-03-20 09:09:52
 #
 # "PyukiWiki" ver 0.2.1-customoer-preview $$
 # (C)2004-2007 Nekyo
@@ -15,7 +15,7 @@
 # This is auto generation code
 ######################################################################
 
-$::buildnumber=2425;
-$::build="2015-03-19 08:11:59";
+$::buildnumber=2441;
+$::build="2015-03-20 08:39:30";
 $::type="devel";
 1;
