@@ -41,9 +41,9 @@ L<http://pyukiwiki.info/PyukiWiki/Plugin/ExPlugin/stdin/>
 
 =item PyukiWiki CVSレボジトリ
 
-L<http://sfjp.jp/cvs/view/pyukiwiki/PyukiWiki-Devel/lib/stdin.inc.pl?view=log>
+L<http://osdn.jp/cvs/view/pyukiwiki/PyukiWiki-Devel/lib/stdin.inc.pl?view=log>
 
-L<http://sfjp.jp/cvs/view/pyukiwiki/PyukiWiki-Devel-UTF8/lib/stdin.inc.pl?view=log>
+L<http://osdn.jp/cvs/view/pyukiwiki/PyukiWiki-Devel-UTF8/lib/stdin.inc.pl?view=log>
 
 L<http://cvs.pyukiwiki.info/cgi-bin/cvsweb.cgi/PyukiWiki-Devel/lib/stdin.inc.pl?view=log>
 

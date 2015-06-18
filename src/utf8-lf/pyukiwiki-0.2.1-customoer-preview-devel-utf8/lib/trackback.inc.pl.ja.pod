@@ -43,17 +43,17 @@ L<http://pyukiwiki.info/PyukiWiki/Plugin/Standard/tb/>
 
 =item PyukiWiki CVSレボジトリ
 
-L<http://sfjp.jp/cvs/view/pyukiwiki/PyukiWiki-Devel/lib/trackback.inc.pl?view=log>
+L<http://osdn.jp/cvs/view/pyukiwiki/PyukiWiki-Devel/lib/trackback.inc.pl?view=log>
 
-L<http://sfjp.jp/cvs/view/pyukiwiki/PyukiWiki-Devel-UTF8/lib/trackback.inc.pl?view=log>
+L<http://osdn.jp/cvs/view/pyukiwiki/PyukiWiki-Devel-UTF8/lib/trackback.inc.pl?view=log>
 
 L<http://cvs.pyukiwiki.info/cgi-bin/cvsweb.cgi/PyukiWiki-Devel/lib/trackback.inc.pl?view=log>
 
 L<http://cvs.pyukiwiki.info/cgi-bin/cvsweb.cgi/PyukiWiki-Devel-UTF8/lib/trackback.inc.pl?view=log>
 
-L<http://sfjp.jp/cvs/view/pyukiwiki/PyukiWiki-Devel/plugin/tb.inc.pl?view=log>
+L<http://osdn.jp/cvs/view/pyukiwiki/PyukiWiki-Devel/plugin/tb.inc.pl?view=log>
 
-L<http://sfjp.jp/cvs/view/pyukiwiki/PyukiWiki-Devel-UTF8/plugin/tb.inc.pl?view=log>
+L<http://osdn.jp/cvs/view/pyukiwiki/PyukiWiki-Devel-UTF8/plugin/tb.inc.pl?view=log>
 
 L<http://cvs.pyukiwiki.info/cgi-bin/cvsweb.cgi/PyukiWiki-Devel/plugin/tb.inc.pl?view=log>
 

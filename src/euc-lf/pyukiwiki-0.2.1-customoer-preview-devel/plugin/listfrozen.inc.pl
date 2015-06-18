@@ -1,7 +1,7 @@
 ######################################################################
 # listfrozen.inc.pl - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-20 09:53:38
+# Build 2015-06-18 10:21:07
 #
 # "PyukiWiki" ver 0.2.1-customoer-preview $$
 # Author Nanami http://nano.daiba.cx/
@@ -9,7 +9,7 @@
 # (C)2005-2015 PyukiWiki Developers Team
 # http://pyukiwiki.info/
 # Based on YukiWiki http://www.hyuki.com/yukiwiki/
-# Powerd by PukiWiki http://pukiwiki.sfjp.jp/
+# Powerd by PukiWiki http://pukiwiki.osdn.jp/
 # CRLF EUC-JP TAB=4Spaces GPL3 and/or Artistic License
 ######################################################################
 
@@ -23,27 +23,7 @@ sub plugin_listfrozen_action {
 		if($auth{authed} eq 0);
 
 	$::IN_JSHEADVALUE.=<<EOM;
-
-
-function allcheckbox(v) {
-	var	f=d.getElementById("sel"),
-		len=f.elements.length;
-
-	for(i=0;i<len;i++) {
-		l=f.elements[i];
-		if(l.type == "checkbox") {
-			if(v == 1) {
-				if(!l.checked) {
-					l.click();
-				}
-			} else {
-				if(l.checked) {
-					l.click();
-				}
-			}
-		}
-	}
-}
+function allcheckbox(b){var c=d.getElementById("sel"),a=c.elements.length;for(i=0;i<a;i++){l=c.elements[i];if(l.type=="checkbox"){if(b==1){if(!l.checked){l.click()}}else{if(l.checked){l.click()}}}}};
 EOM
 	foreach my $pages (keys %::database) {
 		my $frozen=&is_frozen($pages);
@@ -225,9 +205,9 @@ L<http://pyukiwiki.info/PyukiWiki/Plugin/Admin/listfrozen/>
 
 =item PyukiWiki CVS
 
-L<http://sfjp.jp/cvs/view/pyukiwiki/PyukiWiki-Devel/plugin/listfrozen.inc.pl?view=log>
+L<http://osdn.jp/cvs/view/pyukiwiki/PyukiWiki-Devel/plugin/listfrozen.inc.pl?view=log>
 
-L<http://sfjp.jp/cvs/view/pyukiwiki/PyukiWiki-Devel-UTF8/plugin/listfrozen.inc.pl?view=log>
+L<http://osdn.jp/cvs/view/pyukiwiki/PyukiWiki-Devel-UTF8/plugin/listfrozen.inc.pl?view=log>
 
 L<http://cvs.pyukiwiki.info/cgi-bin/cvsweb.cgi/PyukiWiki-Devel/plugin/listfrozen.inc.pl?view=log>
 

@@ -86,17 +86,17 @@ L<http://pyukiwiki.info/PyukiWiki/Plugin/Admin/setting/>
 
 =item PyukiWiki CVS
 
-L<http://sfjp.jp/cvs/view/pyukiwiki/PyukiWiki-Devel/plugin/setting.inc.pl?view=log>
+L<http://osdn.jp/cvs/view/pyukiwiki/PyukiWiki-Devel/plugin/setting.inc.pl?view=log>
 
-L<http://sfjp.jp/cvs/view/pyukiwiki/PyukiWiki-Devel-UTF8/plugin/setting.inc.pl?view=log>
+L<http://osdn.jp/cvs/view/pyukiwiki/PyukiWiki-Devel-UTF8/plugin/setting.inc.pl?view=log>
 
 L<http://cvs.pyukiwiki.info/cgi-bin/cvsweb.cgi/PyukiWiki-Devel/plugin/setting.inc.pl?view=log>
 
 L<http://cvs.pyukiwiki.info/cgi-bin/cvsweb.cgi/PyukiWiki-Devel-UTF8/plugin/setting.inc.pl?view=log>
 
-L<http://sfjp.jp/cvs/view/pyukiwiki/PyukiWiki-Devel/lib/setting.inc.pl?view=log>
+L<http://osdn.jp/cvs/view/pyukiwiki/PyukiWiki-Devel/lib/setting.inc.pl?view=log>
 
-L<http://sfjp.jp/cvs/view/pyukiwiki/PyukiWiki-Devel-UTF8/lib/setting.inc.pl?view=log>
+L<http://osdn.jp/cvs/view/pyukiwiki/PyukiWiki-Devel-UTF8/lib/setting.inc.pl?view=log>
 
 L<http://cvs.pyukiwiki.info/cgi-bin/cvsweb.cgi/PyukiWiki-Devel/lib/setting.inc.pl?view=log>
 

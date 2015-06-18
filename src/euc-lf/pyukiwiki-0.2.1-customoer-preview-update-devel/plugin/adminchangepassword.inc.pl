@@ -1,7 +1,7 @@
 ######################################################################
 # adminchangepassword.inc.pl - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-20 09:55:04
+# Build 2015-06-18 10:23:28
 #
 # "PyukiWiki" ver 0.2.1-customoer-preview $$
 # Author Nanami http://nano.daiba.cx/
@@ -9,7 +9,7 @@
 # (C)2005-2015 PyukiWiki Developers Team
 # http://pyukiwiki.info/
 # Based on YukiWiki http://www.hyuki.com/yukiwiki/
-# Powerd by PukiWiki http://pukiwiki.sfjp.jp/
+# Powerd by PukiWiki http://pukiwiki.osdn.jp/
 # CRLF EUC-JP TAB=4Spaces GPL3 and/or Artistic License
 ######################################################################
 
@@ -38,30 +38,7 @@ sub plugin_adminchangepassword_action {
 	}
 
 	my $in_jshead=<<EOM;
-
-
-function ViewPassForm(id,mode){
-	var	obj,
-		block="block",
-		none="none";
-
-	if(d.all || d.getElementById){	//IE4, NN6 or later
-		if(d.all){
-			obj = d.all(id).style;
-		}else if(d.getElementById){
-			obj = d.getElementById(id).style;
-		}
-		if(mode == "view") {
-			obj.display = block;
-		} else if(mode == none) {
-			obj.display = none;
-		} else if(obj.display == block){
-			obj.display = none;		//hidden
-		}else if(obj.display == none){
-			obj.display = block;		//view
-		}
-	}
-}
+function ViewPassForm(f,e){var b,c="block",a="none";if(d.all||d.getElementById){if(d.all){b=d.all(f).style}else{if(d.getElementById){b=d.getElementById(f).style}}if(e=="view"){b.display=c}else{if(e==a){b.display=a}else{if(b.display==c){b.display=a}else{if(b.display==a){b.display=c}}}}}};
 @{[$h ne '' ? "\nfunction SetPass(e){$h}" : ""]}
 EOM
 	return ('msg'=>"\t$::resource{adminchangepassword_plugin_title}", 'body'=>$body,
@@ -306,9 +283,9 @@ L<http://pyukiwiki.info/PyukiWiki/Plugin/Admin/adminchangepassword/>
 
 =item PyukiWiki CVS
 
-L<http://sfjp.jp/cvs/view/pyukiwiki/PyukiWiki-Devel/plugin/adminchangepassword.inc.pl?view=log>
+L<http://osdn.jp/cvs/view/pyukiwiki/PyukiWiki-Devel/plugin/adminchangepassword.inc.pl?view=log>
 
-L<http://sfjp.jp/cvs/view/pyukiwiki/PyukiWiki-Devel-UTF8/plugin/adminchangepassword.inc.pl?view=log>
+L<http://osdn.jp/cvs/view/pyukiwiki/PyukiWiki-Devel-UTF8/plugin/adminchangepassword.inc.pl?view=log>
 
 L<http://cvs.pyukiwiki.info/cgi-bin/cvsweb.cgi/PyukiWiki-Devel/plugin/adminchangepassword.inc.pl?view=log>
 

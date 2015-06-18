@@ -1,7 +1,7 @@
 ######################################################################
 # rss10.inc.pl - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-20 09:55:20
+# Build 2015-06-18 10:23:55
 #
 # "PyukiWiki" ver 0.2.1-customoer-preview $$
 # Author Nekyo http://nekyo.qp.land.to/
@@ -9,7 +9,7 @@
 # (C)2005-2015 PyukiWiki Developers Team
 # http://pyukiwiki.info/
 # Based on YukiWiki http://www.hyuki.com/yukiwiki/
-# Powerd by PukiWiki http://pukiwiki.sfjp.jp/
+# Powerd by PukiWiki http://pukiwiki.osdn.jp/
 # CRLF EUC-JP TAB=4Spaces GPL3 and/or Artistic License
 ######################################################################
 # v0.2.1 2012/09/28 °ÜÆ°
@@ -49,9 +49,9 @@ L<http://pyukiwiki.info/PyukiWiki/Plugin/Standard/rss10/>
 
 =item PyukiWiki CVS
 
-L<http://sfjp.jp/cvs/view/pyukiwiki/PyukiWiki-Devel/plugin/rss10.inc.pl?view=log>
+L<http://osdn.jp/cvs/view/pyukiwiki/PyukiWiki-Devel/plugin/rss10.inc.pl?view=log>
 
-L<http://sfjp.jp/cvs/view/pyukiwiki/PyukiWiki-Devel-UTF8/plugin/rss10.inc.pl?view=log>
+L<http://osdn.jp/cvs/view/pyukiwiki/PyukiWiki-Devel-UTF8/plugin/rss10.inc.pl?view=log>
 
 L<http://cvs.pyukiwiki.info/cgi-bin/cvsweb.cgi/PyukiWiki-Devel/plugin/rss10.inc.pl?view=log>
 

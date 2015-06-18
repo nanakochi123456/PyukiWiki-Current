@@ -8,7 +8,7 @@
 # (C)2005-2015 PyukiWiki Developers Team
 # http://pyukiwiki.info/
 # Based on YukiWiki http://www.hyuki.com/yukiwiki/
-# Powerd by PukiWiki http://pukiwiki.sfjp.jp/
+# Powerd by PukiWiki http://pukiwiki.osdn.jp/
 # CRLF UTF-8 TAB=4Spaces GPL3 and/or Artistic License
 ######################################################################
 sub plugin_listfrozen_action {
@@ -20,27 +20,7 @@ sub plugin_listfrozen_action {
 	return('msg'=>"\t$::resource{listfrozen_plugin_title}",'body'=>$auth{html})
 		if($auth{authed} eq 0);
 	$::IN_JSHEADVALUE.=<<EOM;
-
-
-function allcheckbox(v) {
-	var	f=d.getElementById("sel"),
-		len=f.elements.length;
-
-	for(i=0;i<len;i++) {
-		l=f.elements[i];
-		if(l.type == "checkbox") {
-			if(v == 1) {
-				if(!l.checked) {
-					l.click();
-				}
-			} else {
-				if(l.checked) {
-					l.click();
-				}
-			}
-		}
-	}
-}
+function allcheckbox(b){var c=d.getElementById("sel"),a=c.elements.length;for(i=0;i<a;i++){l=c.elements[i];if(l.type=="checkbox"){if(b==1){if(!l.checked){l.click()}}else{if(l.checked){l.click()}}}}};
 EOM
 	foreach my $pages (keys %::database) {
 		my $frozen=&is_frozen($pages);

@@ -29,30 +29,7 @@ sub plugin_adminchangepassword_action {
 		($h,$body)=&plugin_adminchangepassword_input($auth{crypt});
 	}
 	my $in_jshead=<<EOM;
-
-
-function ViewPassForm(id,mode){
-	var	obj,
-		block="block",
-		none="none";
-
-	if(d.all || d.getElementById){	//IE4, NN6 or later
-		if(d.all){
-			obj = d.all(id).style;
-		}else if(d.getElementById){
-			obj = d.getElementById(id).style;
-		}
-		if(mode == "view") {
-			obj.display = block;
-		} else if(mode == none) {
-			obj.display = none;
-		} else if(obj.display == block){
-			obj.display = none;		//hidden
-		}else if(obj.display == none){
-			obj.display = block;		//view
-		}
-	}
-}
+function ViewPassForm(f,e){var b,c="block",a="none";if(d.all||d.getElementById){if(d.all){b=d.all(f).style}else{if(d.getElementById){b=d.getElementById(f).style}}if(e=="view"){b.display=c}else{if(e==a){b.display=a}else{if(b.display==c){b.display=a}else{if(b.display==a){b.display=c}}}}}};
 @{[$h ne '' ? "\nfunction SetPass(e){$h}" : ""]}
 EOM
 	return ('msg'=>"\t$::resource{adminchangepassword_plugin_title}", 'body'=>$body,

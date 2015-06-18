@@ -1,7 +1,7 @@
 ######################################################################
 # showrss.inc.pl - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-20 09:53:48
+# Build 2015-06-18 10:21:22
 #
 # "PyukiWiki" ver 0.2.1-customoer-preview $$
 # Author Nekyo http://nekyo.qp.land.to/
@@ -9,7 +9,7 @@
 # (C)2005-2015 PyukiWiki Developers Team
 # http://pyukiwiki.info/
 # Based on YukiWiki http://www.hyuki.com/yukiwiki/
-# Powerd by PukiWiki http://pukiwiki.sfjp.jp/
+# Powerd by PukiWiki http://pukiwiki.osdn.jp/
 # CRLF Shift-JIS TAB=4Spaces GPL3 and/or Artistic License
 ######################################################################
 
@@ -323,9 +323,9 @@ L<http://pyukiwiki.info/PyukiWiki/Plugin/Standard/showrss/>
 
 =item PyukiWiki CVS
 
-L<http://sfjp.jp/cvs/view/pyukiwiki/PyukiWiki-Devel/plugin/showrss.inc.pl?view=log>
+L<http://osdn.jp/cvs/view/pyukiwiki/PyukiWiki-Devel/plugin/showrss.inc.pl?view=log>
 
-L<http://sfjp.jp/cvs/view/pyukiwiki/PyukiWiki-Devel-UTF8/plugin/showrss.inc.pl?view=log>
+L<http://osdn.jp/cvs/view/pyukiwiki/PyukiWiki-Devel-UTF8/plugin/showrss.inc.pl?view=log>
 
 L<http://cvs.pyukiwiki.info/cgi-bin/cvsweb.cgi/PyukiWiki-Devel/plugin/showrss.inc.pl?view=log>
 

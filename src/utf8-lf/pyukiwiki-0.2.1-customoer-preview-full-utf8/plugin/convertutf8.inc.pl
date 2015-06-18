@@ -8,7 +8,7 @@
 # (C)2005-2015 PyukiWiki Developers Team
 # http://pyukiwiki.info/
 # Based on YukiWiki http://www.hyuki.com/yukiwiki/
-# Powerd by PukiWiki http://pukiwiki.sfjp.jp/
+# Powerd by PukiWiki http://pukiwiki.osdn.jp/
 # CRLF UTF-8 TAB=4Spaces GPL3 and/or Artistic License
 ######################################################################
 sub plugin_convertutf8_action {

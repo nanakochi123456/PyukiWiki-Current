@@ -1,0 +1,8 @@
+######################################################################
+# Apache backup/.htaccess for PyukiWiki
+# $Id$
+# "PyukiWiki" ver 0.2.1-customoer-preview $$
+######################################################################
+
+Order deny,allow
+Deny from all

@@ -1,7 +1,7 @@
 ######################################################################
 # Pod2Wiki.pm - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-20 09:53:24
+# Build 2015-06-18 10:20:47
 #
 # "Nana::Pod2Wiki" ver 0.1 $$
 # Author Nanami
@@ -10,7 +10,7 @@
 # (C)2005-2015 PyukiWiki Developers Team
 # http://pyukiwiki.info/
 # Based on YukiWiki http://www.hyuki.com/yukiwiki/
-# Powerd by PukiWiki http://pukiwiki.sfjp.jp/
+# Powerd by PukiWiki http://pukiwiki.osdn.jp/
 # CRLF EUC-JP TAB=4Spaces GPL3 and/or Artistic License
 ######################################################################
 
@@ -180,9 +180,9 @@ Nana::Pod2Wiki - pod to wiki module
 
 =item PyukiWiki CVS
 
-L<http://sfjp.jp/cvs/view/pyukiwiki/PyukiWiki-Devel/lib/Nana/Pod2Wiki.pm?view=log>
+L<http://osdn.jp/cvs/view/pyukiwiki/PyukiWiki-Devel/lib/Nana/Pod2Wiki.pm?view=log>
 
-L<http://sfjp.jp/cvs/view/pyukiwiki/PyukiWiki-Devel-UTF8/lib/Nana/Pod2Wiki.pm?view=log>
+L<http://osdn.jp/cvs/view/pyukiwiki/PyukiWiki-Devel-UTF8/lib/Nana/Pod2Wiki.pm?view=log>
 
 L<http://cvs.pyukiwiki.info/cgi-bin/cvsweb.cgi/PyukiWiki-Devel/lib/Nana/Pod2Wiki.pm?view=log>
 

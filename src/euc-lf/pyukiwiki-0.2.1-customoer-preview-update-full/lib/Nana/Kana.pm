@@ -1,7 +1,7 @@
 ######################################################################
 # Kana.pm - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-20 09:49:52
+# Build 2015-06-18 10:15:53
 #
 # "Nana::Kana" ver 0.1 $$
 # Author Nanami
@@ -10,7 +10,7 @@
 # (C)2005-2015 PyukiWiki Developers Team
 # http://pyukiwiki.info/
 # Based on YukiWiki http://www.hyuki.com/yukiwiki/
-# Powerd by PukiWiki http://pukiwiki.sfjp.jp/
+# Powerd by PukiWiki http://pukiwiki.osdn.jp/
 # CRLF Shift-JIS TAB=4Spaces GPL3 and/or Artistic License
 ######################################################################
 package Nana::Kana;

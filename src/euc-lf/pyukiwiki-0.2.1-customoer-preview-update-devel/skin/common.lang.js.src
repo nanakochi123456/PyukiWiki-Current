@@ -1,7 +1,7 @@
 /*/////////////////////////////////////////////////////////////////////
 # common.lang.js.src - This is PyukiWiki yet another Wiki clone
 # $Id$
-# Build 2015-03-20 09:55:35
+# Build 2015-06-18 10:24:17
 #
 # "PyukiWiki" ver 0.2.1-customoer-preview $$
 # Author Nanami http://nano.daiba.cx/
@@ -9,7 +9,7 @@
 # (C)2005-2015 PyukiWiki Developers Team
 # http://pyukiwiki.info/
 # Based on YukiWiki http://www.hyuki.com/yukiwiki/
-# Powerd by PukiWiki http://pukiwiki.sfjp.jp/
+# Powerd by PukiWiki http://pukiwiki.osdn.jp/
 # CRLF EUC-JP TAB=4Spaces GPL3 and/or Artistic License
 /////////////////////////////////////////////////////////////////////*/
 
@@ -39,18 +39,29 @@ function uz() {
 	var	VERSION, START, END;
 
 	// browser
+	// Opera PC & Mobile Browsers
 	ur["OPERA"]			= us("OPERA");
+
+	// FireFox PC & Mobile Browsers
 	ur["FIREFOX"]		= us("FIREFOX");
 	ur["GECKO"]			= us("GECKO") || us("FIREFOX");
-	ur["CHROME"]		= us("CHROME");
+
+	// Microsoft Edge PC & Mobile Browsers
+	ur["EDGE"]			= us("EDGE");
+
+	// Google Chrome PC & Mobile Browsers
+	ur["CHROME"]		= us("CHROME") && !ur["EDGE"];
+
+	// Apple Safari PC & Mobile Browsers
 	ur["SAFARI"]		= us("SAFARI") && !ur["CHROME"];
+
+	// Microsoft Internet Explorer
 	ur["MSIE"]			= (us("MSIE") || us("TRIDENT")) && !ur["OPERA"] && !ur["GECKO"] || us("TRIDENT");
 
 	// OS
 	ur["WINDOWS" + h + "PHONE"]	= us("WINDOWS" + s + "PHONE");
 	ur["WINDOWS"]		= us("WINDOWS") && !ur["WINDOWS"];
-	ur["MACOS"]			= us("MACINTOSH")
-						||us("MAC_POWERPC");
+	ur["MACOS"]		= us("MACINTOSH") || us("MAC_POWERPC");
 	ur["LINUX"]			= us("LINUX");
 	ur["FREEBSD"]		= us("FREEBSD");
 
@@ -68,6 +79,7 @@ function uz() {
 	ur["PSP"]			= us("PSP" + s + "PLAYSTATION" + s + "PORTABLE");
 	ur["PS2"]			= us("PS2");
 	ur["PS3"]			= us("PLAYSTATION" + s + "3");
+	ur["PS4"]			= us("PLAYSTATION" + s + "4");
 
 	if(ur["MSIE"]) {
 		START		= u.indexOf("MSIE"),
@@ -165,11 +177,11 @@ function keyCode(e){
 	var e=eve(e);
 
 	if(document.all)
-          return e.keyCode;
-     else if(document.getElementById)
-         return e.keyCode ? e.keyCode : e.charCode;
-     else if(document.layers)
-         return e.which;
+		return e.keyCode;
+	else if(document.getElementById)
+		return e.keyCode ? e.keyCode : e.charCode;
+	else if(document.layers)
+		return e.which;
 }
 
 /*
